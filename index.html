@@ -5,6 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Form</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        }
+        html, body {
+        height: 100%;
+        width: 100%;
+        }
+        body {
+        background-image: url(img/bgi-img.jpg);
+        background-size: contain;
+        background-repeat: no-repeat ;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+        .box{
+        height: 450px;
+        width: 450px;
+        background-color: rgba(0, 0, 0, 0.339);
+        text-align: center;
+        border-radius: 25px;
+        box-shadow: 3px 3px 25px rgb(0, 0, 0), -3px -3px 25px rgb(0, 0, 0);
+        }
+        .box input {
+        width: 80%;
+        padding: 15px;
+        text-align: center;
+        margin-top: 50px;
+        color: rgb(0, 0, 0);
+        border-bottom: solid 3px rgb(255, 255, 255);
+        border-radius: 8px;
+        font-size: 16px;
+        outline: none;
+        }
+        .box .input2 {
+        margin-top: 30px;
+        }
+        .box .input3 {
+        padding: 12px;
+        border: none;
+        background-color: rgb(255, 0, 0);
+        display: block;
+        margin: 30px 0 0 330px;
+        border-radius: 12px;
+        color: rgb(0, 0, 0);
+        animation: ali 20.5s infinite;
+        font-weight: bolder;
+        }
+        @keyframes ali{
+            0% {
+                background-color: #d153ff;
+            }
+            20% {
+                background-color: hsl(329, 100%, 56%);
+            }
+            40% {
+                background-color: rgb(255, 170, 51);
+            }
+           60% {
+                background-color: rgb(67, 117, 255);
+            }
+            80% {
+                background-color: rgba(170, 255, 0, 0.99);
+            }
+            100% {
+                background-color: rgb(255, 35, 35);
+            }
+        }
+        h1 {
+            color: white;
+            margin-top: 55px;
+            font-size: 40px;
+        }
+        .icons-box {
+            margin-top: 10px;
+            justify-content: space-around;
+        }
+        .fa-brands{
+            font-size: 30px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <div class="box">
